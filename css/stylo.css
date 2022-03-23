@@ -2,57 +2,37 @@
   margin: 0px;
   padding: 0px; }
 
-h2 {
-  font-size: 60px;
-  font-family: serif;
-  color: white; }
-
-.subT {
-  font-size: 35px; }
-
-.nav {
-  background-color: black;
-  gap: 20px;
+header {
   display: grid;
-  text-align: center; }
-
-@media (max-width: 600px) {
-  .titulo {
-    display: none; } }
-
-.principal, .user {
-  gap: 20px;
-  display: grid; }
-
-@media (max-width: 600px) {
-  img {
-    width: 40%; } }
-
-@media (min-width: 1000px) {
-  img {
-    width: 70%; }
-  .nav {
-    display: grid;
-    grid-template-columns: 70% 30%; }
-  a {
-    font-size: large;
-    text-decoration: none;
-    margin-top: 0;
-    color: white; }
-  .principal {
-    display: flex;
-    align-items: center;
-    gap: 20px; }
-  .user {
-    display: flex;
-    align-items: center;
-    gap: 20px; }
-  a:hover {
-    background-color: red;
-    color: black;
+  grid-template-columns: 200px 569px 400px 400px;
+  column-gap: 50px;
+  height: 200px;
+  background-color: black; }
+  header .logo {
+    width: auto; }
+    header .logo img {
+      width: auto; }
+  header .nombre-libreria ul {
+    margin-top: 30px; }
+    header .nombre-libreria ul .Titulo {
+      font-size: 60px;
+      color: white; }
+    header .nombre-libreria ul .Subtitulo {
+      color: white;
+      font-size: 2em;
+      margin-left: 50px; }
+    header .nombre-libreria ul #subT {
+      margin-top: 10px; }
+  header nav {
+    margin-top: 150px; }
+  header .nav-links li, header .nav-user li li {
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none; }
+  header a {
+    font-weight: 500;
+    font-size: 20px;
     text-decoration: none; }
-  .logorojo:hover {
-    background-color: none; } }
 
 * {
   margin: 0px;
@@ -154,22 +134,6 @@ h2 {
 * {
   margin: 0px;
   padding: 0px; }
-
-.textdos {
-  display: grid;
-  grid-template-rows: auto;
-  row-gap: 1rem;
-  text-align: center;
-  background-color: red;
-  color: white;
-  width: 70%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5rem; }
 
 * {
   margin: 0px;
